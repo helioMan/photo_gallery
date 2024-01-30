@@ -1,0 +1,40 @@
+<% include ./partials/header.ejs %>
+  <div
+    class="w-full h-screen bg-center bg-[url(https://images.unsplash.com/photo-1507643179773-3e975d7ac515?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] flex items-center justify-center">
+    <div class="w-85 h-[66vh] bg-zinc-100 px-4 py-10 rounded-[10px]">
+      <div class="flex justify-center">
+        <h1 class="text-5xl font-bold leading-none tracking-tighter capitalize text-brown-700">Indian History Gallery
+        </h1>
+      </div>
+
+      <div class="flex justify-center">
+        <h1 class="mt-3 text-3xl leading-none tracking-tighter capitalize"><span class="text-orange-500">भारत</span>
+          <span class="text-white">इतिहासिक</span> <span class="text-green-500">गैलरी</span>
+        </h1>
+      </div>
+
+      <!-- we are creating a login form here
+           just username and password
+           forgot password action
+           and finally a sign up button if the user is not registered yet-->
+      <form action="/login" method="post" class="max-w-md mx-auto">
+        <input class="border-6 rounded-md mt-5 w-full px-3 py-2" type="text" name="username" placeholder="username">
+        <input class="border-6 rounded-md mt-2 w-full px-3 py-2" type="password" name="password" placeholder="password">
+
+        <a class="mt-3 font-semibold text-black-700 inline-block" href="#">Forgot password</a>
+
+        <div class="flex justify-center">
+          <input class="border-6 rounded-md mt-7 w-full px-3 py-2 bg-blue-700 text-white" type="submit"
+            style="width: 50%" value="Login">
+        </div>
+
+      </form>
+
+      <!--now here we providing a sign up button alright
+          this button will take us to the register form-->
+          <a class="text-zinc-900 mt-5 flex justify-center inline-block font-bold underline" href="/register">Do not have an account? Click here</a>
+
+
+    </div>
+  </div>
+  <% include ./partials/footer.ejs %>
