@@ -25,7 +25,7 @@
             <li><strong>MongoDB:</strong> A NoSQL database used for storing photo records.</li>
         </ul>
         <h2><strong>Installation</strong></h2>
-        <pre><code>**# Clone the repository**
+        <pre><code>**Clone the repository**
 git clone &lt;repository-url&gt;
 
 **Navigate to the project directory**
