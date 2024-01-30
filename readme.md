@@ -27,13 +27,10 @@
         <h2><strong>Installation</strong></h2>
         <pre><code><strong>Clone the repository</strong>
 git clone &lt;repository-url&gt;
-
 <strong>Navigate to the project directory</strong>
 cd photo_gallery
-
 <strong>Install dependencies</strong>
 npm install
-
 <strong>Start the server</strong>
 npm start
 </code></pre>
