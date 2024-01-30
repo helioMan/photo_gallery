@@ -25,19 +25,17 @@
             <li><strong>MongoDB:</strong> A NoSQL database used for storing photo records.</li>
         </ul>
         <h2><strong>Installation</strong></h2>
-        <pre><code>**# Clone the repository**
+        <pre><code>
+**# Clone the repository**
 git clone &lt;repository-url&gt;
 
 **Navigate to the project directory**
-
 cd photo_gallery
 
 **Install dependencies**
-
 npm install
 
 **Start the server**
-
 npm start
 </code></pre>
         <h2><strong>Usage</strong></h2>
