@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+
+    <style>
+        .navbar {
+            background-color: #4A5568; /* Match the background color with profile.ejs */
+            color: #FFFFFF; /* Text color */
+        }
+
+        .navbar a {
+            color: #FFFFFF; /* Link color */
+            text-decoration: none; /* Remove underline */
+            padding: 0 10px; /* Add padding */
+        }
+
+        .navbar a:hover {
+            color: #E2E8F0; /* Hover color */
+        }
+
+        .gallery {
+            font-weight: bold; /* Make Gallery text bold */
+            margin-right: auto; /* Align Gallery to the extreme left */
+        }
+
+        .logout-btn {
+            background-color: #2C5282; /* Logout button background color */
+        }
+
+        .logout-btn:hover {
+            background-color: #1A365D; /* Hover background color */
+        }
+    </style>
+</head>
+
+<body>
+    <% if(nav === true){ %>
+        <div class="w-full px-10 py-3 flex justify-between items-center navbar">
+            <h3 class="gallery">Gallery</h3>
+            <div>
+                <a href="/profile">Profile</a>
+                <a href="/feed">Feed</a>
+            </div>
+            <a class="px-3 py-2 bg-blue-600 text-white rounded-lg logout-btn" href="/logout">Logout</a>
+        </div>
+    <% } %>
+</body>
+
+</html>
