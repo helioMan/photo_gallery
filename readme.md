@@ -29,10 +29,13 @@
         <code>
             # Clone the repository
             git clone &lt;repository-url&gt;
+            
             # Navigate to the project directory
             cd photo_gallery
+            
             # Install dependencies
             npm install
+            
             # Start the server
             npm start
         </code>
