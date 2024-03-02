@@ -1,0 +1,23 @@
+<% include ./partials/header.ejs %>
+
+<div class="w-full h-screen bg-center bg-cover bg-[url(https://images.unsplash.com/photo-1604076913837-52ab5629fba9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-gradient-to-br from-red-500 to-blue-500 flex justify-center items-center">
+  <div class="bg-white bg-opacity-75 rounded-lg p-8 max-w-md">
+    <h1 class="text-3xl font-bold text-black mb-8 text-center">Create New Account here</h1>
+  
+    <form action="" class="w-full">
+      <input class="border-2 rounded-md block mb-4 px-4 py-2 w-full" type="text" name="username" placeholder="Username">
+
+      <input class="border-2 rounded-md block mb-4 px-4 py-2 w-full" type="email" name="email" placeholder="Email"> 
+
+      <input class="border-2 rounded-md block mb-4 px-4 py-2 w-full" type="number" name="contact" placeholder="Contact">
+  
+      <input class="border-2 rounded-md block mb-4 px-4 py-2 w-full" type="password" name="password" placeholder="Password">
+  
+      <input class="border-2 rounded-md block bg-blue-500 text-white font-semibold py-2 px-4 hover:bg-blue-600 transition duration-300 ease-in-out mx-auto block" type="submit" value="Create New Account">
+    </form>
+
+    <a class="text-sm font-semibold inline-block mt-4 text-zinc-700 text-center block text-blue-500" href="/" style="display: block; margin: 20px auto 0 auto; text-align: center;">Login into existing account</a>
+  </div>
+</div>
+
+<% include ./partials/footer.ejs %>
